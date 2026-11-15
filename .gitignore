@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PyCharm and macOS
+.idea/
+.DS_Store
+
+# Credentials and environment variables
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets
+data/
+landing/
+
+# Generated Data Lake files
+bronze/
+silver/
+gold/
+
+# Airflow runtime files
+airflow/logs/
+airflow/airflow.db
+airflow/standalone_admin_password.txt
+
+# Local dependencies and logs
+*.jar
+*.log# Streaming checkpoints and backups
+checkpoints/
+spark-warehouse/
+*.tar.gz
+*.sql
+*.dump
+*.bak
